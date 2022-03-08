@@ -116,4 +116,6 @@ class StandardDataPacket extends ResultRow {
 
   @override
   String toString() => 'Fields: $fields';
+  
+   Map<String, dynamic> toMap() => fields;
 }
